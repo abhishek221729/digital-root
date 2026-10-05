@@ -26,8 +26,8 @@ buckets = {
 }
 
 
-start = 1
-end = 10
+start = int(input("Enter starting number: "))
+end = int(input("Enter ending number: "))
 
 for number in range(start, end + 1):
     root = digital_root(number)
